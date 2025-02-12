@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ImageClassifier
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# Image-classifier
+Image classifier using Angular and Machine Learning 
+>>>>>>> 170635322d875f65d11039818cda2e6bc1d65b53

@@ -1,1 +1,15 @@
-<p>prediction works!</p>
+<div class="container">
+    <h2>Clasificación de Imágenes</h2>
+    
+    <input type="file" (change)="onFileSelected($event)" />
+    <button (click)="onUpload()">Subir y Predecir</button>
+  
+    <div *ngIf="predictionResult !== null" class="result">
+      <p>Predicción: {{ predictionResult }}</p>
+    </div>
+  
+    <div *ngIf="errorMessage" class="error">
+      <p>{{ errorMessage }}</p>
+    </div>
+  </div>
+  
