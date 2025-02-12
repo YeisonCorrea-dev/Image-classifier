@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { PredictionService } from '../../services/prediction.service'; // Verifica la ruta correcta
-
+import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-prediction',
-  standalone: true, // Especificar que es un componente independiente
+  standalone: true, 
   templateUrl: './prediction.component.html',
   styleUrls: ['./prediction.component.css'],
-  imports: [] // Aquí puedes agregar otros módulos si los necesitas
+  imports: [CommonModule] 
 })
 export class PredictionComponent {
   selectedFile: File | null = null;
